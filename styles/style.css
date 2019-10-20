@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "BigJohn", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.ba-header {
+    position: absolute;
+    top: 36px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ba-header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.ba-header ul li a:before {
+    content: '';
+    display: inline-block;
+    margin: 0 50px 0 0;
+    width: 1px;
+    height: 100%;
+    background-color: #6b7883;
+    transform: skewX(-20deg);
+}
+
+.ba-header ul li:first-child a:before {
+    width: 0px;
+}
+
+.ba-header ul li {
+    padding: 0 0 0 50px;
+}
+
+.ba-bg {
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    height: 100vh;
+    padding-top: 290px;
+    text-transform: uppercase;
+}
+
+ba-bg a {
+    text-transform: uppercase;
+    line-height: 1.2em;
+    text-align: center;
+}
+
+.ba-bg h1 {
+    font-size: 46px;
+}
+
+.ba-bg span {
+    font-size: 30px;
+}
+
+.ba-bg p {
+    margin-top: 50px;
+}
+
+.ba-bg .botton {
+    font-size: 14px;
+    font-family: "Lato", sans-serif;
+    color: rgb(72, 191, 114);
+    font-weight: bold;
+    padding: 12px 20px;
+    border: 2px solid rgb(72, 191, 114);
+}
+
+
+/*-- section-2 img4--*/
+
+
+/*-- END section-2 img4--*/
